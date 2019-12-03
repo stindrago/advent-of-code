@@ -22,7 +22,7 @@ Fuel required to launch a given module is based on its mass. Specifically, to fi
   + For a mass of 100756, the fuel required is 33583.
 
 
-The Fuel Counter-Upper needs to know the total fuel requirement. To find it, individually calculate the fuel needed for the mass of each module (your puzzle input), then add together all the fuel values.
+The Fuel Counter-Upper needs to know the total fuel requirement. To find it, individually calculate the fuel needed for the mass of each module (your puzzle [Input](resrc/input_puzzle1.txt)), then add together all the fuel values.
 
 
 What is the sum of the fuel requirements for all of the modules on your spacecraft?
