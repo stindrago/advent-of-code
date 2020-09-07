@@ -1,0 +1,1797 @@
+Advent of Code - Day 1!
+=======================
+
+
+Siamo stati incaricati di salvare Babbo Natale.
+Comandante la tua prima missione e': rifornire l'astronave con il carburante neccessario per il viaggio. Ricorda che il carburante totale va in base alla massa dei moduli dell'astronave.
+Trovi tutte le informazioni qui: ../resources/input.txt.
+
+Buona Fortuna comandante!
+
+Comandante abbiamo calcolato il numero totale di moduli presenti nell'astronave, sono: 100.
+
+Comandate, iniziamo il rifornimento di carburante:
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31686.
+Carburante totale modulo: 31686.
+Carburante moduli accumulato: 31686.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 43097.
+Carburante totale modulo: 43097.
+Carburante moduli accumulato: 74783.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 48522.
+Carburante totale modulo: 48522.
+Carburante moduli accumulato: 123305.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31912.
+Carburante totale modulo: 31912.
+Carburante moduli accumulato: 155217.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19711.
+Carburante totale modulo: 19711.
+Carburante moduli accumulato: 174928.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26105.
+Carburante totale modulo: 26105.
+Carburante moduli accumulato: 201033.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 41479.
+Carburante totale modulo: 41479.
+Carburante moduli accumulato: 242512.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23003.
+Carburante totale modulo: 23003.
+Carburante moduli accumulato: 265515.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27328.
+Carburante totale modulo: 27328.
+Carburante moduli accumulato: 292843.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27749.
+Carburante totale modulo: 27749.
+Carburante moduli accumulato: 320592.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 46422.
+Carburante totale modulo: 46422.
+Carburante moduli accumulato: 367014.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 30698.
+Carburante totale modulo: 30698.
+Carburante moduli accumulato: 397712.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24746.
+Carburante totale modulo: 24746.
+Carburante moduli accumulato: 422458.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34677.
+Carburante totale modulo: 34677.
+Carburante moduli accumulato: 457135.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20649.
+Carburante totale modulo: 20649.
+Carburante moduli accumulato: 477784.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26878.
+Carburante totale modulo: 26878.
+Carburante moduli accumulato: 504662.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36790.
+Carburante totale modulo: 36790.
+Carburante moduli accumulato: 541452.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 29995.
+Carburante totale modulo: 29995.
+Carburante moduli accumulato: 571447.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 28128.
+Carburante totale modulo: 28128.
+Carburante moduli accumulato: 599575.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 39274.
+Carburante totale modulo: 39274.
+Carburante moduli accumulato: 638849.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 46712.
+Carburante totale modulo: 46712.
+Carburante moduli accumulato: 685561.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26690.
+Carburante totale modulo: 26690.
+Carburante moduli accumulato: 712251.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 37093.
+Carburante totale modulo: 37093.
+Carburante moduli accumulato: 749344.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35709.
+Carburante totale modulo: 35709.
+Carburante moduli accumulato: 785053.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32911.
+Carburante totale modulo: 32911.
+Carburante moduli accumulato: 817964.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34582.
+Carburante totale modulo: 34582.
+Carburante moduli accumulato: 852546.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47305.
+Carburante totale modulo: 47305.
+Carburante moduli accumulato: 899851.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 43499.
+Carburante totale modulo: 43499.
+Carburante moduli accumulato: 943350.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20134.
+Carburante totale modulo: 20134.
+Carburante moduli accumulato: 963484.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24628.
+Carburante totale modulo: 24628.
+Carburante moduli accumulato: 988112.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 28258.
+Carburante totale modulo: 28258.
+Carburante moduli accumulato: 1016370.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 39437.
+Carburante totale modulo: 39437.
+Carburante moduli accumulato: 1055807.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31201.
+Carburante totale modulo: 31201.
+Carburante moduli accumulato: 1087008.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47740.
+Carburante totale modulo: 47740.
+Carburante moduli accumulato: 1134748.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33203.
+Carburante totale modulo: 33203.
+Carburante moduli accumulato: 1167951.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 21782.
+Carburante totale modulo: 21782.
+Carburante moduli accumulato: 1189733.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34127.
+Carburante totale modulo: 34127.
+Carburante moduli accumulato: 1223860.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 41269.
+Carburante totale modulo: 41269.
+Carburante moduli accumulato: 1265129.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 29443.
+Carburante totale modulo: 29443.
+Carburante moduli accumulato: 1294572.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31817.
+Carburante totale modulo: 31817.
+Carburante moduli accumulato: 1326389.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 44543.
+Carburante totale modulo: 44543.
+Carburante moduli accumulato: 1370932.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36255.
+Carburante totale modulo: 36255.
+Carburante moduli accumulato: 1407187.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33997.
+Carburante totale modulo: 33997.
+Carburante moduli accumulato: 1441184.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24614.
+Carburante totale modulo: 24614.
+Carburante moduli accumulato: 1465798.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35494.
+Carburante totale modulo: 35494.
+Carburante moduli accumulato: 1501292.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 17796.
+Carburante totale modulo: 17796.
+Carburante moduli accumulato: 1519088.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36774.
+Carburante totale modulo: 36774.
+Carburante moduli accumulato: 1555862.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 46750.
+Carburante totale modulo: 46750.
+Carburante moduli accumulato: 1602612.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24650.
+Carburante totale modulo: 24650.
+Carburante moduli accumulato: 1627262.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20089.
+Carburante totale modulo: 20089.
+Carburante moduli accumulato: 1647351.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33798.
+Carburante totale modulo: 33798.
+Carburante moduli accumulato: 1681149.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 42996.
+Carburante totale modulo: 42996.
+Carburante moduli accumulato: 1724145.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20496.
+Carburante totale modulo: 20496.
+Carburante moduli accumulato: 1744641.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 38222.
+Carburante totale modulo: 38222.
+Carburante moduli accumulato: 1782863.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23983.
+Carburante totale modulo: 23983.
+Carburante moduli accumulato: 1806846.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35681.
+Carburante totale modulo: 35681.
+Carburante moduli accumulato: 1842527.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26456.
+Carburante totale modulo: 26456.
+Carburante moduli accumulato: 1868983.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 17451.
+Carburante totale modulo: 17451.
+Carburante moduli accumulato: 1886434.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35973.
+Carburante totale modulo: 35973.
+Carburante moduli accumulato: 1922407.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 30594.
+Carburante totale modulo: 30594.
+Carburante moduli accumulato: 1953001.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23056.
+Carburante totale modulo: 23056.
+Carburante moduli accumulato: 1976057.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 44653.
+Carburante totale modulo: 44653.
+Carburante moduli accumulato: 2020710.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 28352.
+Carburante totale modulo: 28352.
+Carburante moduli accumulato: 2049062.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20950.
+Carburante totale modulo: 20950.
+Carburante moduli accumulato: 2070012.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32319.
+Carburante totale modulo: 32319.
+Carburante moduli accumulato: 2102331.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32364.
+Carburante totale modulo: 32364.
+Carburante moduli accumulato: 2134695.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27210.
+Carburante totale modulo: 27210.
+Carburante moduli accumulato: 2161905.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34827.
+Carburante totale modulo: 34827.
+Carburante moduli accumulato: 2196732.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 43787.
+Carburante totale modulo: 43787.
+Carburante moduli accumulato: 2240519.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19669.
+Carburante totale modulo: 19669.
+Carburante moduli accumulato: 2260188.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 49783.
+Carburante totale modulo: 49783.
+Carburante moduli accumulato: 2309971.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 21729.
+Carburante totale modulo: 21729.
+Carburante moduli accumulato: 2331700.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20494.
+Carburante totale modulo: 20494.
+Carburante moduli accumulato: 2352194.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 42027.
+Carburante totale modulo: 42027.
+Carburante moduli accumulato: 2394221.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47072.
+Carburante totale modulo: 47072.
+Carburante moduli accumulato: 2441293.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33530.
+Carburante totale modulo: 33530.
+Carburante moduli accumulato: 2474823.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31046.
+Carburante totale modulo: 31046.
+Carburante moduli accumulato: 2505869.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36471.
+Carburante totale modulo: 36471.
+Carburante moduli accumulato: 2542340.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 40660.
+Carburante totale modulo: 40660.
+Carburante moduli accumulato: 2583000.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 45294.
+Carburante totale modulo: 45294.
+Carburante moduli accumulato: 2628294.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23378.
+Carburante totale modulo: 23378.
+Carburante moduli accumulato: 2651672.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 17841.
+Carburante totale modulo: 17841.
+Carburante moduli accumulato: 2669513.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19964.
+Carburante totale modulo: 19964.
+Carburante moduli accumulato: 2689477.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32991.
+Carburante totale modulo: 32991.
+Carburante moduli accumulato: 2722468.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 22263.
+Carburante totale modulo: 22263.
+Carburante moduli accumulato: 2744731.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 37898.
+Carburante totale modulo: 37898.
+Carburante moduli accumulato: 2782629.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36509.
+Carburante totale modulo: 36509.
+Carburante moduli accumulato: 2819138.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33571.
+Carburante totale modulo: 33571.
+Carburante moduli accumulato: 2852709.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 29078.
+Carburante totale modulo: 29078.
+Carburante moduli accumulato: 2881787.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33292.
+Carburante totale modulo: 33292.
+Carburante moduli accumulato: 2915079.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27210.
+Carburante totale modulo: 27210.
+Carburante moduli accumulato: 2942289.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26686.
+Carburante totale modulo: 26686.
+Carburante moduli accumulato: 2968975.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47716.
+Carburante totale modulo: 47716.
+Carburante moduli accumulato: 3016691.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 25257.
+Carburante totale modulo: 25257.
+Carburante moduli accumulato: 3041948.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 21609.
+Carburante totale modulo: 21609.
+Carburante moduli accumulato: 3063557.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19743.
+Carburante totale modulo: 19743.
+Carburante moduli accumulato: 3083300.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34633.
+Carburante totale modulo: 34633.
+Carburante moduli accumulato: 3117933.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 40543.
+Carburante totale modulo: 40543.
+Carburante moduli accumulato: 3158476.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 39506.
+Carburante totale modulo: 39506.
+Carburante moduli accumulato: 3197982.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 41908.
+Carburante totale modulo: 41908.
+Carburante moduli accumulato: 3239890.
+
+(OUTPUT PUZZLE 1): 3239890.
+
+Pericolo, Pericolo, Annullare, Annullare.
+Non avete calcolato il carburante totale dell'astronave in modo corretto.
+Vi ricordo che oltre al carburante neccessario per la massa dei moduli va aggiunto anche il carburante per la massa del carburante stesso.
+
+Comandate, abbiamo rifatto i calcoli, iniziamo il rifornimento di carburante nella giusta quantita:
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31686.
+ ↳Carburante ulteriore aggiunto: 10560.
+ ↳Carburante ulteriore aggiunto: 3518.
+ ↳Carburante ulteriore aggiunto: 1170.
+ ↳Carburante ulteriore aggiunto: 388.
+ ↳Carburante ulteriore aggiunto: 127.
+ ↳Carburante ulteriore aggiunto: 40.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 47501.
+Carburante moduli accumulato: 47501.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 43097.
+ ↳Carburante ulteriore aggiunto: 14363.
+ ↳Carburante ulteriore aggiunto: 4785.
+ ↳Carburante ulteriore aggiunto: 1593.
+ ↳Carburante ulteriore aggiunto: 529.
+ ↳Carburante ulteriore aggiunto: 174.
+ ↳Carburante ulteriore aggiunto: 56.
+ ↳Carburante ulteriore aggiunto: 16.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 64616.
+Carburante moduli accumulato: 112117.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 48522.
+ ↳Carburante ulteriore aggiunto: 16172.
+ ↳Carburante ulteriore aggiunto: 5388.
+ ↳Carburante ulteriore aggiunto: 1794.
+ ↳Carburante ulteriore aggiunto: 596.
+ ↳Carburante ulteriore aggiunto: 196.
+ ↳Carburante ulteriore aggiunto: 63.
+ ↳Carburante ulteriore aggiunto: 19.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 72754.
+Carburante moduli accumulato: 184871.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31912.
+ ↳Carburante ulteriore aggiunto: 10635.
+ ↳Carburante ulteriore aggiunto: 3543.
+ ↳Carburante ulteriore aggiunto: 1179.
+ ↳Carburante ulteriore aggiunto: 391.
+ ↳Carburante ulteriore aggiunto: 128.
+ ↳Carburante ulteriore aggiunto: 40.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 47840.
+Carburante moduli accumulato: 232711.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19711.
+ ↳Carburante ulteriore aggiunto: 6568.
+ ↳Carburante ulteriore aggiunto: 2187.
+ ↳Carburante ulteriore aggiunto: 727.
+ ↳Carburante ulteriore aggiunto: 240.
+ ↳Carburante ulteriore aggiunto: 78.
+ ↳Carburante ulteriore aggiunto: 24.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 29541.
+Carburante moduli accumulato: 262252.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26105.
+ ↳Carburante ulteriore aggiunto: 8699.
+ ↳Carburante ulteriore aggiunto: 2897.
+ ↳Carburante ulteriore aggiunto: 963.
+ ↳Carburante ulteriore aggiunto: 319.
+ ↳Carburante ulteriore aggiunto: 104.
+ ↳Carburante ulteriore aggiunto: 32.
+ ↳Carburante ulteriore aggiunto: 8.
+Carburante totale modulo: 39127.
+Carburante moduli accumulato: 301379.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 41479.
+ ↳Carburante ulteriore aggiunto: 13824.
+ ↳Carburante ulteriore aggiunto: 4606.
+ ↳Carburante ulteriore aggiunto: 1533.
+ ↳Carburante ulteriore aggiunto: 509.
+ ↳Carburante ulteriore aggiunto: 167.
+ ↳Carburante ulteriore aggiunto: 53.
+ ↳Carburante ulteriore aggiunto: 15.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 62189.
+Carburante moduli accumulato: 363568.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23003.
+ ↳Carburante ulteriore aggiunto: 7665.
+ ↳Carburante ulteriore aggiunto: 2553.
+ ↳Carburante ulteriore aggiunto: 849.
+ ↳Carburante ulteriore aggiunto: 281.
+ ↳Carburante ulteriore aggiunto: 91.
+ ↳Carburante ulteriore aggiunto: 28.
+ ↳Carburante ulteriore aggiunto: 7.
+Carburante totale modulo: 34477.
+Carburante moduli accumulato: 398045.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27328.
+ ↳Carburante ulteriore aggiunto: 9107.
+ ↳Carburante ulteriore aggiunto: 3033.
+ ↳Carburante ulteriore aggiunto: 1009.
+ ↳Carburante ulteriore aggiunto: 334.
+ ↳Carburante ulteriore aggiunto: 109.
+ ↳Carburante ulteriore aggiunto: 34.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 40964.
+Carburante moduli accumulato: 439009.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27749.
+ ↳Carburante ulteriore aggiunto: 9247.
+ ↳Carburante ulteriore aggiunto: 3080.
+ ↳Carburante ulteriore aggiunto: 1024.
+ ↳Carburante ulteriore aggiunto: 339.
+ ↳Carburante ulteriore aggiunto: 111.
+ ↳Carburante ulteriore aggiunto: 35.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 41595.
+Carburante moduli accumulato: 480604.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 46422.
+ ↳Carburante ulteriore aggiunto: 15472.
+ ↳Carburante ulteriore aggiunto: 5155.
+ ↳Carburante ulteriore aggiunto: 1716.
+ ↳Carburante ulteriore aggiunto: 570.
+ ↳Carburante ulteriore aggiunto: 188.
+ ↳Carburante ulteriore aggiunto: 60.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 69605.
+Carburante moduli accumulato: 550209.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 30698.
+ ↳Carburante ulteriore aggiunto: 10230.
+ ↳Carburante ulteriore aggiunto: 3408.
+ ↳Carburante ulteriore aggiunto: 1134.
+ ↳Carburante ulteriore aggiunto: 376.
+ ↳Carburante ulteriore aggiunto: 123.
+ ↳Carburante ulteriore aggiunto: 39.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 46020.
+Carburante moduli accumulato: 596229.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24746.
+ ↳Carburante ulteriore aggiunto: 8246.
+ ↳Carburante ulteriore aggiunto: 2746.
+ ↳Carburante ulteriore aggiunto: 913.
+ ↳Carburante ulteriore aggiunto: 302.
+ ↳Carburante ulteriore aggiunto: 98.
+ ↳Carburante ulteriore aggiunto: 30.
+ ↳Carburante ulteriore aggiunto: 8.
+Carburante totale modulo: 37089.
+Carburante moduli accumulato: 633318.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34677.
+ ↳Carburante ulteriore aggiunto: 11557.
+ ↳Carburante ulteriore aggiunto: 3850.
+ ↳Carburante ulteriore aggiunto: 1281.
+ ↳Carburante ulteriore aggiunto: 425.
+ ↳Carburante ulteriore aggiunto: 139.
+ ↳Carburante ulteriore aggiunto: 44.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 51987.
+Carburante moduli accumulato: 685305.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20649.
+ ↳Carburante ulteriore aggiunto: 6881.
+ ↳Carburante ulteriore aggiunto: 2291.
+ ↳Carburante ulteriore aggiunto: 761.
+ ↳Carburante ulteriore aggiunto: 251.
+ ↳Carburante ulteriore aggiunto: 81.
+ ↳Carburante ulteriore aggiunto: 25.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 30945.
+Carburante moduli accumulato: 716250.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26878.
+ ↳Carburante ulteriore aggiunto: 8957.
+ ↳Carburante ulteriore aggiunto: 2983.
+ ↳Carburante ulteriore aggiunto: 992.
+ ↳Carburante ulteriore aggiunto: 328.
+ ↳Carburante ulteriore aggiunto: 107.
+ ↳Carburante ulteriore aggiunto: 33.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 40288.
+Carburante moduli accumulato: 756538.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36790.
+ ↳Carburante ulteriore aggiunto: 12261.
+ ↳Carburante ulteriore aggiunto: 4085.
+ ↳Carburante ulteriore aggiunto: 1359.
+ ↳Carburante ulteriore aggiunto: 451.
+ ↳Carburante ulteriore aggiunto: 148.
+ ↳Carburante ulteriore aggiunto: 47.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 55156.
+Carburante moduli accumulato: 811694.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 29995.
+ ↳Carburante ulteriore aggiunto: 9996.
+ ↳Carburante ulteriore aggiunto: 3330.
+ ↳Carburante ulteriore aggiunto: 1108.
+ ↳Carburante ulteriore aggiunto: 367.
+ ↳Carburante ulteriore aggiunto: 120.
+ ↳Carburante ulteriore aggiunto: 38.
+ ↳Carburante ulteriore aggiunto: 10.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 44965.
+Carburante moduli accumulato: 856659.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 28128.
+ ↳Carburante ulteriore aggiunto: 9374.
+ ↳Carburante ulteriore aggiunto: 3122.
+ ↳Carburante ulteriore aggiunto: 1038.
+ ↳Carburante ulteriore aggiunto: 344.
+ ↳Carburante ulteriore aggiunto: 112.
+ ↳Carburante ulteriore aggiunto: 35.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 42163.
+Carburante moduli accumulato: 898822.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 39274.
+ ↳Carburante ulteriore aggiunto: 13089.
+ ↳Carburante ulteriore aggiunto: 4361.
+ ↳Carburante ulteriore aggiunto: 1451.
+ ↳Carburante ulteriore aggiunto: 481.
+ ↳Carburante ulteriore aggiunto: 158.
+ ↳Carburante ulteriore aggiunto: 50.
+ ↳Carburante ulteriore aggiunto: 14.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 58880.
+Carburante moduli accumulato: 957702.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 46712.
+ ↳Carburante ulteriore aggiunto: 15568.
+ ↳Carburante ulteriore aggiunto: 5187.
+ ↳Carburante ulteriore aggiunto: 1727.
+ ↳Carburante ulteriore aggiunto: 573.
+ ↳Carburante ulteriore aggiunto: 189.
+ ↳Carburante ulteriore aggiunto: 61.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 70039.
+Carburante moduli accumulato: 1027741.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26690.
+ ↳Carburante ulteriore aggiunto: 8894.
+ ↳Carburante ulteriore aggiunto: 2962.
+ ↳Carburante ulteriore aggiunto: 985.
+ ↳Carburante ulteriore aggiunto: 326.
+ ↳Carburante ulteriore aggiunto: 106.
+ ↳Carburante ulteriore aggiunto: 33.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 40006.
+Carburante moduli accumulato: 1067747.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 37093.
+ ↳Carburante ulteriore aggiunto: 12362.
+ ↳Carburante ulteriore aggiunto: 4118.
+ ↳Carburante ulteriore aggiunto: 1370.
+ ↳Carburante ulteriore aggiunto: 454.
+ ↳Carburante ulteriore aggiunto: 149.
+ ↳Carburante ulteriore aggiunto: 47.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 55608.
+Carburante moduli accumulato: 1123355.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35709.
+ ↳Carburante ulteriore aggiunto: 11901.
+ ↳Carburante ulteriore aggiunto: 3965.
+ ↳Carburante ulteriore aggiunto: 1319.
+ ↳Carburante ulteriore aggiunto: 437.
+ ↳Carburante ulteriore aggiunto: 143.
+ ↳Carburante ulteriore aggiunto: 45.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 53534.
+Carburante moduli accumulato: 1176889.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32911.
+ ↳Carburante ulteriore aggiunto: 10968.
+ ↳Carburante ulteriore aggiunto: 3654.
+ ↳Carburante ulteriore aggiunto: 1216.
+ ↳Carburante ulteriore aggiunto: 403.
+ ↳Carburante ulteriore aggiunto: 132.
+ ↳Carburante ulteriore aggiunto: 42.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 49340.
+Carburante moduli accumulato: 1226229.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34582.
+ ↳Carburante ulteriore aggiunto: 11525.
+ ↳Carburante ulteriore aggiunto: 3839.
+ ↳Carburante ulteriore aggiunto: 1277.
+ ↳Carburante ulteriore aggiunto: 423.
+ ↳Carburante ulteriore aggiunto: 139.
+ ↳Carburante ulteriore aggiunto: 44.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 51843.
+Carburante moduli accumulato: 1278072.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47305.
+ ↳Carburante ulteriore aggiunto: 15766.
+ ↳Carburante ulteriore aggiunto: 5253.
+ ↳Carburante ulteriore aggiunto: 1749.
+ ↳Carburante ulteriore aggiunto: 581.
+ ↳Carburante ulteriore aggiunto: 191.
+ ↳Carburante ulteriore aggiunto: 61.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 70928.
+Carburante moduli accumulato: 1349000.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 43499.
+ ↳Carburante ulteriore aggiunto: 14497.
+ ↳Carburante ulteriore aggiunto: 4830.
+ ↳Carburante ulteriore aggiunto: 1608.
+ ↳Carburante ulteriore aggiunto: 534.
+ ↳Carburante ulteriore aggiunto: 176.
+ ↳Carburante ulteriore aggiunto: 56.
+ ↳Carburante ulteriore aggiunto: 16.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 65219.
+Carburante moduli accumulato: 1414219.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20134.
+ ↳Carburante ulteriore aggiunto: 6709.
+ ↳Carburante ulteriore aggiunto: 2234.
+ ↳Carburante ulteriore aggiunto: 742.
+ ↳Carburante ulteriore aggiunto: 245.
+ ↳Carburante ulteriore aggiunto: 79.
+ ↳Carburante ulteriore aggiunto: 24.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 30173.
+Carburante moduli accumulato: 1444392.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24628.
+ ↳Carburante ulteriore aggiunto: 8207.
+ ↳Carburante ulteriore aggiunto: 2733.
+ ↳Carburante ulteriore aggiunto: 909.
+ ↳Carburante ulteriore aggiunto: 301.
+ ↳Carburante ulteriore aggiunto: 98.
+ ↳Carburante ulteriore aggiunto: 30.
+ ↳Carburante ulteriore aggiunto: 8.
+Carburante totale modulo: 36914.
+Carburante moduli accumulato: 1481306.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 28258.
+ ↳Carburante ulteriore aggiunto: 9417.
+ ↳Carburante ulteriore aggiunto: 3137.
+ ↳Carburante ulteriore aggiunto: 1043.
+ ↳Carburante ulteriore aggiunto: 345.
+ ↳Carburante ulteriore aggiunto: 113.
+ ↳Carburante ulteriore aggiunto: 35.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 42358.
+Carburante moduli accumulato: 1523664.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 39437.
+ ↳Carburante ulteriore aggiunto: 13143.
+ ↳Carburante ulteriore aggiunto: 4379.
+ ↳Carburante ulteriore aggiunto: 1457.
+ ↳Carburante ulteriore aggiunto: 483.
+ ↳Carburante ulteriore aggiunto: 159.
+ ↳Carburante ulteriore aggiunto: 51.
+ ↳Carburante ulteriore aggiunto: 15.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 59127.
+Carburante moduli accumulato: 1582791.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31201.
+ ↳Carburante ulteriore aggiunto: 10398.
+ ↳Carburante ulteriore aggiunto: 3464.
+ ↳Carburante ulteriore aggiunto: 1152.
+ ↳Carburante ulteriore aggiunto: 382.
+ ↳Carburante ulteriore aggiunto: 125.
+ ↳Carburante ulteriore aggiunto: 39.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 46773.
+Carburante moduli accumulato: 1629564.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47740.
+ ↳Carburante ulteriore aggiunto: 15911.
+ ↳Carburante ulteriore aggiunto: 5301.
+ ↳Carburante ulteriore aggiunto: 1765.
+ ↳Carburante ulteriore aggiunto: 586.
+ ↳Carburante ulteriore aggiunto: 193.
+ ↳Carburante ulteriore aggiunto: 62.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 71580.
+Carburante moduli accumulato: 1701144.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33203.
+ ↳Carburante ulteriore aggiunto: 11065.
+ ↳Carburante ulteriore aggiunto: 3686.
+ ↳Carburante ulteriore aggiunto: 1226.
+ ↳Carburante ulteriore aggiunto: 406.
+ ↳Carburante ulteriore aggiunto: 133.
+ ↳Carburante ulteriore aggiunto: 42.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 49775.
+Carburante moduli accumulato: 1750919.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 21782.
+ ↳Carburante ulteriore aggiunto: 7258.
+ ↳Carburante ulteriore aggiunto: 2417.
+ ↳Carburante ulteriore aggiunto: 803.
+ ↳Carburante ulteriore aggiunto: 265.
+ ↳Carburante ulteriore aggiunto: 86.
+ ↳Carburante ulteriore aggiunto: 26.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 32643.
+Carburante moduli accumulato: 1783562.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34127.
+ ↳Carburante ulteriore aggiunto: 11373.
+ ↳Carburante ulteriore aggiunto: 3789.
+ ↳Carburante ulteriore aggiunto: 1261.
+ ↳Carburante ulteriore aggiunto: 418.
+ ↳Carburante ulteriore aggiunto: 137.
+ ↳Carburante ulteriore aggiunto: 43.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 51162.
+Carburante moduli accumulato: 1834724.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 41269.
+ ↳Carburante ulteriore aggiunto: 13754.
+ ↳Carburante ulteriore aggiunto: 4582.
+ ↳Carburante ulteriore aggiunto: 1525.
+ ↳Carburante ulteriore aggiunto: 506.
+ ↳Carburante ulteriore aggiunto: 166.
+ ↳Carburante ulteriore aggiunto: 53.
+ ↳Carburante ulteriore aggiunto: 15.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 61873.
+Carburante moduli accumulato: 1896597.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 29443.
+ ↳Carburante ulteriore aggiunto: 9812.
+ ↳Carburante ulteriore aggiunto: 3268.
+ ↳Carburante ulteriore aggiunto: 1087.
+ ↳Carburante ulteriore aggiunto: 360.
+ ↳Carburante ulteriore aggiunto: 118.
+ ↳Carburante ulteriore aggiunto: 37.
+ ↳Carburante ulteriore aggiunto: 10.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 44136.
+Carburante moduli accumulato: 1940733.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31817.
+ ↳Carburante ulteriore aggiunto: 10603.
+ ↳Carburante ulteriore aggiunto: 3532.
+ ↳Carburante ulteriore aggiunto: 1175.
+ ↳Carburante ulteriore aggiunto: 389.
+ ↳Carburante ulteriore aggiunto: 127.
+ ↳Carburante ulteriore aggiunto: 40.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 47695.
+Carburante moduli accumulato: 1988428.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 44543.
+ ↳Carburante ulteriore aggiunto: 14845.
+ ↳Carburante ulteriore aggiunto: 4946.
+ ↳Carburante ulteriore aggiunto: 1646.
+ ↳Carburante ulteriore aggiunto: 546.
+ ↳Carburante ulteriore aggiunto: 180.
+ ↳Carburante ulteriore aggiunto: 58.
+ ↳Carburante ulteriore aggiunto: 17.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 66784.
+Carburante moduli accumulato: 2055212.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36255.
+ ↳Carburante ulteriore aggiunto: 12083.
+ ↳Carburante ulteriore aggiunto: 4025.
+ ↳Carburante ulteriore aggiunto: 1339.
+ ↳Carburante ulteriore aggiunto: 444.
+ ↳Carburante ulteriore aggiunto: 146.
+ ↳Carburante ulteriore aggiunto: 46.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 54353.
+Carburante moduli accumulato: 2109565.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33997.
+ ↳Carburante ulteriore aggiunto: 11330.
+ ↳Carburante ulteriore aggiunto: 3774.
+ ↳Carburante ulteriore aggiunto: 1256.
+ ↳Carburante ulteriore aggiunto: 416.
+ ↳Carburante ulteriore aggiunto: 136.
+ ↳Carburante ulteriore aggiunto: 43.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 50966.
+Carburante moduli accumulato: 2160531.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24614.
+ ↳Carburante ulteriore aggiunto: 8202.
+ ↳Carburante ulteriore aggiunto: 2732.
+ ↳Carburante ulteriore aggiunto: 908.
+ ↳Carburante ulteriore aggiunto: 300.
+ ↳Carburante ulteriore aggiunto: 98.
+ ↳Carburante ulteriore aggiunto: 30.
+ ↳Carburante ulteriore aggiunto: 8.
+Carburante totale modulo: 36892.
+Carburante moduli accumulato: 2197423.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35494.
+ ↳Carburante ulteriore aggiunto: 11829.
+ ↳Carburante ulteriore aggiunto: 3941.
+ ↳Carburante ulteriore aggiunto: 1311.
+ ↳Carburante ulteriore aggiunto: 435.
+ ↳Carburante ulteriore aggiunto: 143.
+ ↳Carburante ulteriore aggiunto: 45.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 53213.
+Carburante moduli accumulato: 2250636.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 17796.
+ ↳Carburante ulteriore aggiunto: 5930.
+ ↳Carburante ulteriore aggiunto: 1974.
+ ↳Carburante ulteriore aggiunto: 656.
+ ↳Carburante ulteriore aggiunto: 216.
+ ↳Carburante ulteriore aggiunto: 70.
+ ↳Carburante ulteriore aggiunto: 21.
+ ↳Carburante ulteriore aggiunto: 5.
+Carburante totale modulo: 26668.
+Carburante moduli accumulato: 2277304.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36774.
+ ↳Carburante ulteriore aggiunto: 12256.
+ ↳Carburante ulteriore aggiunto: 4083.
+ ↳Carburante ulteriore aggiunto: 1359.
+ ↳Carburante ulteriore aggiunto: 451.
+ ↳Carburante ulteriore aggiunto: 148.
+ ↳Carburante ulteriore aggiunto: 47.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 55133.
+Carburante moduli accumulato: 2332437.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 46750.
+ ↳Carburante ulteriore aggiunto: 15581.
+ ↳Carburante ulteriore aggiunto: 5191.
+ ↳Carburante ulteriore aggiunto: 1728.
+ ↳Carburante ulteriore aggiunto: 574.
+ ↳Carburante ulteriore aggiunto: 189.
+ ↳Carburante ulteriore aggiunto: 61.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 70096.
+Carburante moduli accumulato: 2402533.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 24650.
+ ↳Carburante ulteriore aggiunto: 8214.
+ ↳Carburante ulteriore aggiunto: 2736.
+ ↳Carburante ulteriore aggiunto: 910.
+ ↳Carburante ulteriore aggiunto: 301.
+ ↳Carburante ulteriore aggiunto: 98.
+ ↳Carburante ulteriore aggiunto: 30.
+ ↳Carburante ulteriore aggiunto: 8.
+Carburante totale modulo: 36947.
+Carburante moduli accumulato: 2439480.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20089.
+ ↳Carburante ulteriore aggiunto: 6694.
+ ↳Carburante ulteriore aggiunto: 2229.
+ ↳Carburante ulteriore aggiunto: 741.
+ ↳Carburante ulteriore aggiunto: 245.
+ ↳Carburante ulteriore aggiunto: 79.
+ ↳Carburante ulteriore aggiunto: 24.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 30107.
+Carburante moduli accumulato: 2469587.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33798.
+ ↳Carburante ulteriore aggiunto: 11264.
+ ↳Carburante ulteriore aggiunto: 3752.
+ ↳Carburante ulteriore aggiunto: 1248.
+ ↳Carburante ulteriore aggiunto: 414.
+ ↳Carburante ulteriore aggiunto: 136.
+ ↳Carburante ulteriore aggiunto: 43.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 50669.
+Carburante moduli accumulato: 2520256.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 42996.
+ ↳Carburante ulteriore aggiunto: 14330.
+ ↳Carburante ulteriore aggiunto: 4774.
+ ↳Carburante ulteriore aggiunto: 1589.
+ ↳Carburante ulteriore aggiunto: 527.
+ ↳Carburante ulteriore aggiunto: 173.
+ ↳Carburante ulteriore aggiunto: 55.
+ ↳Carburante ulteriore aggiunto: 16.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 64463.
+Carburante moduli accumulato: 2584719.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20496.
+ ↳Carburante ulteriore aggiunto: 6830.
+ ↳Carburante ulteriore aggiunto: 2274.
+ ↳Carburante ulteriore aggiunto: 756.
+ ↳Carburante ulteriore aggiunto: 250.
+ ↳Carburante ulteriore aggiunto: 81.
+ ↳Carburante ulteriore aggiunto: 25.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 30718.
+Carburante moduli accumulato: 2615437.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 38222.
+ ↳Carburante ulteriore aggiunto: 12738.
+ ↳Carburante ulteriore aggiunto: 4244.
+ ↳Carburante ulteriore aggiunto: 1412.
+ ↳Carburante ulteriore aggiunto: 468.
+ ↳Carburante ulteriore aggiunto: 154.
+ ↳Carburante ulteriore aggiunto: 49.
+ ↳Carburante ulteriore aggiunto: 14.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 57303.
+Carburante moduli accumulato: 2672740.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23983.
+ ↳Carburante ulteriore aggiunto: 7992.
+ ↳Carburante ulteriore aggiunto: 2662.
+ ↳Carburante ulteriore aggiunto: 885.
+ ↳Carburante ulteriore aggiunto: 293.
+ ↳Carburante ulteriore aggiunto: 95.
+ ↳Carburante ulteriore aggiunto: 29.
+ ↳Carburante ulteriore aggiunto: 7.
+Carburante totale modulo: 35946.
+Carburante moduli accumulato: 2708686.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35681.
+ ↳Carburante ulteriore aggiunto: 11891.
+ ↳Carburante ulteriore aggiunto: 3961.
+ ↳Carburante ulteriore aggiunto: 1318.
+ ↳Carburante ulteriore aggiunto: 437.
+ ↳Carburante ulteriore aggiunto: 143.
+ ↳Carburante ulteriore aggiunto: 45.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 53491.
+Carburante moduli accumulato: 2762177.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26456.
+ ↳Carburante ulteriore aggiunto: 8816.
+ ↳Carburante ulteriore aggiunto: 2936.
+ ↳Carburante ulteriore aggiunto: 976.
+ ↳Carburante ulteriore aggiunto: 323.
+ ↳Carburante ulteriore aggiunto: 105.
+ ↳Carburante ulteriore aggiunto: 33.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 39655.
+Carburante moduli accumulato: 2801832.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 17451.
+ ↳Carburante ulteriore aggiunto: 5815.
+ ↳Carburante ulteriore aggiunto: 1936.
+ ↳Carburante ulteriore aggiunto: 643.
+ ↳Carburante ulteriore aggiunto: 212.
+ ↳Carburante ulteriore aggiunto: 68.
+ ↳Carburante ulteriore aggiunto: 20.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 26149.
+Carburante moduli accumulato: 2827981.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 35973.
+ ↳Carburante ulteriore aggiunto: 11989.
+ ↳Carburante ulteriore aggiunto: 3994.
+ ↳Carburante ulteriore aggiunto: 1329.
+ ↳Carburante ulteriore aggiunto: 441.
+ ↳Carburante ulteriore aggiunto: 145.
+ ↳Carburante ulteriore aggiunto: 46.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 53932.
+Carburante moduli accumulato: 2881913.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 30594.
+ ↳Carburante ulteriore aggiunto: 10196.
+ ↳Carburante ulteriore aggiunto: 3396.
+ ↳Carburante ulteriore aggiunto: 1130.
+ ↳Carburante ulteriore aggiunto: 374.
+ ↳Carburante ulteriore aggiunto: 122.
+ ↳Carburante ulteriore aggiunto: 38.
+ ↳Carburante ulteriore aggiunto: 10.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 45861.
+Carburante moduli accumulato: 2927774.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23056.
+ ↳Carburante ulteriore aggiunto: 7683.
+ ↳Carburante ulteriore aggiunto: 2559.
+ ↳Carburante ulteriore aggiunto: 851.
+ ↳Carburante ulteriore aggiunto: 281.
+ ↳Carburante ulteriore aggiunto: 91.
+ ↳Carburante ulteriore aggiunto: 28.
+ ↳Carburante ulteriore aggiunto: 7.
+Carburante totale modulo: 34556.
+Carburante moduli accumulato: 2962330.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 44653.
+ ↳Carburante ulteriore aggiunto: 14882.
+ ↳Carburante ulteriore aggiunto: 4958.
+ ↳Carburante ulteriore aggiunto: 1650.
+ ↳Carburante ulteriore aggiunto: 548.
+ ↳Carburante ulteriore aggiunto: 180.
+ ↳Carburante ulteriore aggiunto: 58.
+ ↳Carburante ulteriore aggiunto: 17.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 66949.
+Carburante moduli accumulato: 3029279.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 28352.
+ ↳Carburante ulteriore aggiunto: 9448.
+ ↳Carburante ulteriore aggiunto: 3147.
+ ↳Carburante ulteriore aggiunto: 1047.
+ ↳Carburante ulteriore aggiunto: 347.
+ ↳Carburante ulteriore aggiunto: 113.
+ ↳Carburante ulteriore aggiunto: 35.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 42499.
+Carburante moduli accumulato: 3071778.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20950.
+ ↳Carburante ulteriore aggiunto: 6981.
+ ↳Carburante ulteriore aggiunto: 2325.
+ ↳Carburante ulteriore aggiunto: 773.
+ ↳Carburante ulteriore aggiunto: 255.
+ ↳Carburante ulteriore aggiunto: 83.
+ ↳Carburante ulteriore aggiunto: 25.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 31398.
+Carburante moduli accumulato: 3103176.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32319.
+ ↳Carburante ulteriore aggiunto: 10771.
+ ↳Carburante ulteriore aggiunto: 3588.
+ ↳Carburante ulteriore aggiunto: 1194.
+ ↳Carburante ulteriore aggiunto: 396.
+ ↳Carburante ulteriore aggiunto: 130.
+ ↳Carburante ulteriore aggiunto: 41.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 48451.
+Carburante moduli accumulato: 3151627.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32364.
+ ↳Carburante ulteriore aggiunto: 10786.
+ ↳Carburante ulteriore aggiunto: 3593.
+ ↳Carburante ulteriore aggiunto: 1195.
+ ↳Carburante ulteriore aggiunto: 396.
+ ↳Carburante ulteriore aggiunto: 130.
+ ↳Carburante ulteriore aggiunto: 41.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 48517.
+Carburante moduli accumulato: 3200144.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27210.
+ ↳Carburante ulteriore aggiunto: 9068.
+ ↳Carburante ulteriore aggiunto: 3020.
+ ↳Carburante ulteriore aggiunto: 1004.
+ ↳Carburante ulteriore aggiunto: 332.
+ ↳Carburante ulteriore aggiunto: 108.
+ ↳Carburante ulteriore aggiunto: 34.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 40786.
+Carburante moduli accumulato: 3240930.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34827.
+ ↳Carburante ulteriore aggiunto: 11607.
+ ↳Carburante ulteriore aggiunto: 3867.
+ ↳Carburante ulteriore aggiunto: 1287.
+ ↳Carburante ulteriore aggiunto: 427.
+ ↳Carburante ulteriore aggiunto: 140.
+ ↳Carburante ulteriore aggiunto: 44.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 52213.
+Carburante moduli accumulato: 3293143.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 43787.
+ ↳Carburante ulteriore aggiunto: 14593.
+ ↳Carburante ulteriore aggiunto: 4862.
+ ↳Carburante ulteriore aggiunto: 1618.
+ ↳Carburante ulteriore aggiunto: 537.
+ ↳Carburante ulteriore aggiunto: 177.
+ ↳Carburante ulteriore aggiunto: 57.
+ ↳Carburante ulteriore aggiunto: 17.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 65651.
+Carburante moduli accumulato: 3358794.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19669.
+ ↳Carburante ulteriore aggiunto: 6554.
+ ↳Carburante ulteriore aggiunto: 2182.
+ ↳Carburante ulteriore aggiunto: 725.
+ ↳Carburante ulteriore aggiunto: 239.
+ ↳Carburante ulteriore aggiunto: 77.
+ ↳Carburante ulteriore aggiunto: 23.
+ ↳Carburante ulteriore aggiunto: 5.
+Carburante totale modulo: 29474.
+Carburante moduli accumulato: 3388268.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 49783.
+ ↳Carburante ulteriore aggiunto: 16592.
+ ↳Carburante ulteriore aggiunto: 5528.
+ ↳Carburante ulteriore aggiunto: 1840.
+ ↳Carburante ulteriore aggiunto: 611.
+ ↳Carburante ulteriore aggiunto: 201.
+ ↳Carburante ulteriore aggiunto: 65.
+ ↳Carburante ulteriore aggiunto: 19.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 74643.
+Carburante moduli accumulato: 3462911.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 21729.
+ ↳Carburante ulteriore aggiunto: 7241.
+ ↳Carburante ulteriore aggiunto: 2411.
+ ↳Carburante ulteriore aggiunto: 801.
+ ↳Carburante ulteriore aggiunto: 265.
+ ↳Carburante ulteriore aggiunto: 86.
+ ↳Carburante ulteriore aggiunto: 26.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 32565.
+Carburante moduli accumulato: 3495476.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 20494.
+ ↳Carburante ulteriore aggiunto: 6829.
+ ↳Carburante ulteriore aggiunto: 2274.
+ ↳Carburante ulteriore aggiunto: 756.
+ ↳Carburante ulteriore aggiunto: 250.
+ ↳Carburante ulteriore aggiunto: 81.
+ ↳Carburante ulteriore aggiunto: 25.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 30715.
+Carburante moduli accumulato: 3526191.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 42027.
+ ↳Carburante ulteriore aggiunto: 14007.
+ ↳Carburante ulteriore aggiunto: 4667.
+ ↳Carburante ulteriore aggiunto: 1553.
+ ↳Carburante ulteriore aggiunto: 515.
+ ↳Carburante ulteriore aggiunto: 169.
+ ↳Carburante ulteriore aggiunto: 54.
+ ↳Carburante ulteriore aggiunto: 16.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 63011.
+Carburante moduli accumulato: 3589202.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47072.
+ ↳Carburante ulteriore aggiunto: 15688.
+ ↳Carburante ulteriore aggiunto: 5227.
+ ↳Carburante ulteriore aggiunto: 1740.
+ ↳Carburante ulteriore aggiunto: 578.
+ ↳Carburante ulteriore aggiunto: 190.
+ ↳Carburante ulteriore aggiunto: 61.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 70578.
+Carburante moduli accumulato: 3659780.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33530.
+ ↳Carburante ulteriore aggiunto: 11174.
+ ↳Carburante ulteriore aggiunto: 3722.
+ ↳Carburante ulteriore aggiunto: 1238.
+ ↳Carburante ulteriore aggiunto: 410.
+ ↳Carburante ulteriore aggiunto: 134.
+ ↳Carburante ulteriore aggiunto: 42.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 50264.
+Carburante moduli accumulato: 3710044.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 31046.
+ ↳Carburante ulteriore aggiunto: 10346.
+ ↳Carburante ulteriore aggiunto: 3446.
+ ↳Carburante ulteriore aggiunto: 1146.
+ ↳Carburante ulteriore aggiunto: 380.
+ ↳Carburante ulteriore aggiunto: 124.
+ ↳Carburante ulteriore aggiunto: 39.
+ ↳Carburante ulteriore aggiunto: 11.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 46539.
+Carburante moduli accumulato: 3756583.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36471.
+ ↳Carburante ulteriore aggiunto: 12155.
+ ↳Carburante ulteriore aggiunto: 4049.
+ ↳Carburante ulteriore aggiunto: 1347.
+ ↳Carburante ulteriore aggiunto: 447.
+ ↳Carburante ulteriore aggiunto: 147.
+ ↳Carburante ulteriore aggiunto: 47.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 54678.
+Carburante moduli accumulato: 3811261.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 40660.
+ ↳Carburante ulteriore aggiunto: 13551.
+ ↳Carburante ulteriore aggiunto: 4515.
+ ↳Carburante ulteriore aggiunto: 1503.
+ ↳Carburante ulteriore aggiunto: 499.
+ ↳Carburante ulteriore aggiunto: 164.
+ ↳Carburante ulteriore aggiunto: 52.
+ ↳Carburante ulteriore aggiunto: 15.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 60962.
+Carburante moduli accumulato: 3872223.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 45294.
+ ↳Carburante ulteriore aggiunto: 15096.
+ ↳Carburante ulteriore aggiunto: 5030.
+ ↳Carburante ulteriore aggiunto: 1674.
+ ↳Carburante ulteriore aggiunto: 556.
+ ↳Carburante ulteriore aggiunto: 183.
+ ↳Carburante ulteriore aggiunto: 59.
+ ↳Carburante ulteriore aggiunto: 17.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 67912.
+Carburante moduli accumulato: 3940135.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 23378.
+ ↳Carburante ulteriore aggiunto: 7790.
+ ↳Carburante ulteriore aggiunto: 2594.
+ ↳Carburante ulteriore aggiunto: 862.
+ ↳Carburante ulteriore aggiunto: 285.
+ ↳Carburante ulteriore aggiunto: 93.
+ ↳Carburante ulteriore aggiunto: 29.
+ ↳Carburante ulteriore aggiunto: 7.
+Carburante totale modulo: 35038.
+Carburante moduli accumulato: 3975173.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 17841.
+ ↳Carburante ulteriore aggiunto: 5945.
+ ↳Carburante ulteriore aggiunto: 1979.
+ ↳Carburante ulteriore aggiunto: 657.
+ ↳Carburante ulteriore aggiunto: 217.
+ ↳Carburante ulteriore aggiunto: 70.
+ ↳Carburante ulteriore aggiunto: 21.
+ ↳Carburante ulteriore aggiunto: 5.
+Carburante totale modulo: 26735.
+Carburante moduli accumulato: 4001908.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19964.
+ ↳Carburante ulteriore aggiunto: 6652.
+ ↳Carburante ulteriore aggiunto: 2215.
+ ↳Carburante ulteriore aggiunto: 736.
+ ↳Carburante ulteriore aggiunto: 243.
+ ↳Carburante ulteriore aggiunto: 79.
+ ↳Carburante ulteriore aggiunto: 24.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 29919.
+Carburante moduli accumulato: 4031827.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 32991.
+ ↳Carburante ulteriore aggiunto: 10995.
+ ↳Carburante ulteriore aggiunto: 3663.
+ ↳Carburante ulteriore aggiunto: 1219.
+ ↳Carburante ulteriore aggiunto: 404.
+ ↳Carburante ulteriore aggiunto: 132.
+ ↳Carburante ulteriore aggiunto: 42.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 49460.
+Carburante moduli accumulato: 4081287.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 22263.
+ ↳Carburante ulteriore aggiunto: 7419.
+ ↳Carburante ulteriore aggiunto: 2471.
+ ↳Carburante ulteriore aggiunto: 821.
+ ↳Carburante ulteriore aggiunto: 271.
+ ↳Carburante ulteriore aggiunto: 88.
+ ↳Carburante ulteriore aggiunto: 27.
+ ↳Carburante ulteriore aggiunto: 7.
+Carburante totale modulo: 33367.
+Carburante moduli accumulato: 4114654.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 37898.
+ ↳Carburante ulteriore aggiunto: 12630.
+ ↳Carburante ulteriore aggiunto: 4208.
+ ↳Carburante ulteriore aggiunto: 1400.
+ ↳Carburante ulteriore aggiunto: 464.
+ ↳Carburante ulteriore aggiunto: 152.
+ ↳Carburante ulteriore aggiunto: 48.
+ ↳Carburante ulteriore aggiunto: 14.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 56816.
+Carburante moduli accumulato: 4171470.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 36509.
+ ↳Carburante ulteriore aggiunto: 12167.
+ ↳Carburante ulteriore aggiunto: 4053.
+ ↳Carburante ulteriore aggiunto: 1349.
+ ↳Carburante ulteriore aggiunto: 447.
+ ↳Carburante ulteriore aggiunto: 147.
+ ↳Carburante ulteriore aggiunto: 47.
+ ↳Carburante ulteriore aggiunto: 13.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 54734.
+Carburante moduli accumulato: 4226204.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33571.
+ ↳Carburante ulteriore aggiunto: 11188.
+ ↳Carburante ulteriore aggiunto: 3727.
+ ↳Carburante ulteriore aggiunto: 1240.
+ ↳Carburante ulteriore aggiunto: 411.
+ ↳Carburante ulteriore aggiunto: 135.
+ ↳Carburante ulteriore aggiunto: 43.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 50329.
+Carburante moduli accumulato: 4276533.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 29078.
+ ↳Carburante ulteriore aggiunto: 9690.
+ ↳Carburante ulteriore aggiunto: 3228.
+ ↳Carburante ulteriore aggiunto: 1074.
+ ↳Carburante ulteriore aggiunto: 356.
+ ↳Carburante ulteriore aggiunto: 116.
+ ↳Carburante ulteriore aggiunto: 36.
+ ↳Carburante ulteriore aggiunto: 10.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 43589.
+Carburante moduli accumulato: 4320122.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 33292.
+ ↳Carburante ulteriore aggiunto: 11095.
+ ↳Carburante ulteriore aggiunto: 3696.
+ ↳Carburante ulteriore aggiunto: 1230.
+ ↳Carburante ulteriore aggiunto: 408.
+ ↳Carburante ulteriore aggiunto: 134.
+ ↳Carburante ulteriore aggiunto: 42.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 49911.
+Carburante moduli accumulato: 4370033.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 27210.
+ ↳Carburante ulteriore aggiunto: 9068.
+ ↳Carburante ulteriore aggiunto: 3020.
+ ↳Carburante ulteriore aggiunto: 1004.
+ ↳Carburante ulteriore aggiunto: 332.
+ ↳Carburante ulteriore aggiunto: 108.
+ ↳Carburante ulteriore aggiunto: 34.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 40786.
+Carburante moduli accumulato: 4410819.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 26686.
+ ↳Carburante ulteriore aggiunto: 8893.
+ ↳Carburante ulteriore aggiunto: 2962.
+ ↳Carburante ulteriore aggiunto: 985.
+ ↳Carburante ulteriore aggiunto: 326.
+ ↳Carburante ulteriore aggiunto: 106.
+ ↳Carburante ulteriore aggiunto: 33.
+ ↳Carburante ulteriore aggiunto: 9.
+ ↳Carburante ulteriore aggiunto: 1.
+Carburante totale modulo: 40001.
+Carburante moduli accumulato: 4450820.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 47716.
+ ↳Carburante ulteriore aggiunto: 15903.
+ ↳Carburante ulteriore aggiunto: 5299.
+ ↳Carburante ulteriore aggiunto: 1764.
+ ↳Carburante ulteriore aggiunto: 586.
+ ↳Carburante ulteriore aggiunto: 193.
+ ↳Carburante ulteriore aggiunto: 62.
+ ↳Carburante ulteriore aggiunto: 18.
+ ↳Carburante ulteriore aggiunto: 4.
+Carburante totale modulo: 71545.
+Carburante moduli accumulato: 4522365.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 25257.
+ ↳Carburante ulteriore aggiunto: 8417.
+ ↳Carburante ulteriore aggiunto: 2803.
+ ↳Carburante ulteriore aggiunto: 932.
+ ↳Carburante ulteriore aggiunto: 308.
+ ↳Carburante ulteriore aggiunto: 100.
+ ↳Carburante ulteriore aggiunto: 31.
+ ↳Carburante ulteriore aggiunto: 8.
+Carburante totale modulo: 37856.
+Carburante moduli accumulato: 4560221.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 21609.
+ ↳Carburante ulteriore aggiunto: 7201.
+ ↳Carburante ulteriore aggiunto: 2398.
+ ↳Carburante ulteriore aggiunto: 797.
+ ↳Carburante ulteriore aggiunto: 263.
+ ↳Carburante ulteriore aggiunto: 85.
+ ↳Carburante ulteriore aggiunto: 26.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 32385.
+Carburante moduli accumulato: 4592606.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 19743.
+ ↳Carburante ulteriore aggiunto: 6579.
+ ↳Carburante ulteriore aggiunto: 2191.
+ ↳Carburante ulteriore aggiunto: 728.
+ ↳Carburante ulteriore aggiunto: 240.
+ ↳Carburante ulteriore aggiunto: 78.
+ ↳Carburante ulteriore aggiunto: 24.
+ ↳Carburante ulteriore aggiunto: 6.
+Carburante totale modulo: 29589.
+Carburante moduli accumulato: 4622195.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 34633.
+ ↳Carburante ulteriore aggiunto: 11542.
+ ↳Carburante ulteriore aggiunto: 3845.
+ ↳Carburante ulteriore aggiunto: 1279.
+ ↳Carburante ulteriore aggiunto: 424.
+ ↳Carburante ulteriore aggiunto: 139.
+ ↳Carburante ulteriore aggiunto: 44.
+ ↳Carburante ulteriore aggiunto: 12.
+ ↳Carburante ulteriore aggiunto: 2.
+Carburante totale modulo: 51920.
+Carburante moduli accumulato: 4674115.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 40543.
+ ↳Carburante ulteriore aggiunto: 13512.
+ ↳Carburante ulteriore aggiunto: 4502.
+ ↳Carburante ulteriore aggiunto: 1498.
+ ↳Carburante ulteriore aggiunto: 497.
+ ↳Carburante ulteriore aggiunto: 163.
+ ↳Carburante ulteriore aggiunto: 52.
+ ↳Carburante ulteriore aggiunto: 15.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 60785.
+Carburante moduli accumulato: 4734900.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 39506.
+ ↳Carburante ulteriore aggiunto: 13166.
+ ↳Carburante ulteriore aggiunto: 4386.
+ ↳Carburante ulteriore aggiunto: 1460.
+ ↳Carburante ulteriore aggiunto: 484.
+ ↳Carburante ulteriore aggiunto: 159.
+ ↳Carburante ulteriore aggiunto: 51.
+ ↳Carburante ulteriore aggiunto: 15.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 59230.
+Carburante moduli accumulato: 4794130.
+
+Rifornimento in corso...
+Rifornimento completato, carburante aggiunto: 41908.
+ ↳Carburante ulteriore aggiunto: 13967.
+ ↳Carburante ulteriore aggiunto: 4653.
+ ↳Carburante ulteriore aggiunto: 1549.
+ ↳Carburante ulteriore aggiunto: 514.
+ ↳Carburante ulteriore aggiunto: 169.
+ ↳Carburante ulteriore aggiunto: 54.
+ ↳Carburante ulteriore aggiunto: 16.
+ ↳Carburante ulteriore aggiunto: 3.
+Carburante totale modulo: 62833.
+Carburante moduli accumulato: 4856963.
+
+(OUTPUT PUZZLE 2): 4856963.
+

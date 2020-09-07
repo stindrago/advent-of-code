@@ -4,7 +4,10 @@ Puzzle challenges https://adventofcode.com/
 
 ## 2019
 
-* [x] [Day 1](https://adventofcode.com/2019/day/1) [**Input**](2019/day_1/resrc/input.txt)
-  + [x] Puzzle 1 [**Answer**](2019/day_1/resrc/p1_answer.txt)
-  + [x] Puzzle 2 [**Answer**](2019/day_1/resrc/p2_answer.txt)
-* [ ] [Day 1](https://adventofcode.com/2019/day/2) [**Input**](2019/day_2/resrc/input.txt)
+1. [Day 1](https://adventofcode.com/2019/day/1)
+   - [Input](2019/days/1/resources/input.txt)
+   - [Source Code](2019/days/1/resources/input.txt)
+   - [Puzzle 1 Solution](2019/days/1/resources/p1_answer.txt)
+   - [Puzzle 2 Solution](2019/days/2/resources/p2_answer.txt)
+2. [Day 2](https://adventofcode.com/2019/days/2)
+   - [Input](2019/days/2/resources/input.txt)

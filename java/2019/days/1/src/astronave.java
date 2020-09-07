@@ -65,7 +65,7 @@ public class astronave{
 
     public static void main(String[] args){
         String percorso_a 
-            ="/home/costin/Gitlab/advent-of-code/2019/day_1/resrc/input.txt";
+            ="../resources/input.txt";
 
         System.out.println("Advent of Code - Day 1!");
         System.out.println("=======================\n\n");
