@@ -16,4 +16,3 @@
   (if (and args (= 1 (count args)))
     (println (time (run-problem (Integer/parseInt (first args)))))
     (println "Usage: lein run [number]")))
-;
