@@ -1,4 +1,6 @@
-(ns aoc-2020.1)
+(ns aoc-2020.1
+  (:require  :as ]
+  [ :as ]))
 
 "
 --- Day 1: Report Repair ---
@@ -27,3 +29,16 @@ In this list, the two entries that sum to 2020 are 1721 and 299. Multiplying the
 
 Of course, your expense report is much larger. Find the two entries that sum to 2020; what do you get if you multiply them together?
 "
+
+(def example-input [1721
+                    979
+                    366
+                    299
+                    675
+                    1456])
+
+
+(def input
+  (map #(Long/parseLong %)
+       (line-seq (io/reader (io/resources/input "1.txt")))))
+
