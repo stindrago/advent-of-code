@@ -41,8 +41,6 @@ Of course, your expense report is much larger. Find the two entries that sum to 
   (map #(Long/parseLong %)
        (line-seq (io/reader (io/resources/input "d1_p1.txt")))))
 
-(combo/combinations example-input 2)
-
 (def combinations
   (vec (combo/combinations example-input 2)))
 
