@@ -48,4 +48,4 @@ Of course, your expense report is much larger. Find the two entries that sum to 
 
 (map + example-input example-input)
 
-(combo/permutations [1 2 3])
+(combo/permutations example-input)
