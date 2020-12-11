@@ -4,9 +4,9 @@
 (set! *warn-on-reflection* true)
 
 (defn run-problem [n]
-  (let [day
-        solution-function (symbol (str "solution-d" day))]
-    (use (vec (list (symbol (str "aoc-2020.d" day))
+  (let [day (.format (new java.text.DecimalFormat "0") n)
+        solution-function (symbol (str "solution-" day))]
+    (use (vec (list (symbol (str "aoc-2020." day))
                     :only (list solution-function))))
     (eval (list solution-function))))
 
