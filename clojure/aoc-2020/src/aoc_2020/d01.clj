@@ -1,5 +1,6 @@
 (ns aoc-2020.1
-  (:require [clojure.java.io :as io]))
+  (:require [clojure.java.io :as io]
+            [clojure.math.combinatorics :as combo]))
 
 "
 --- Day 1: Report Repair ---
@@ -42,5 +43,9 @@ Of course, your expense report is much larger. Find the two entries that sum to 
 
 
 (filter (fn [x]
-  (= 2))
+  (= 2020 (reduce + x)))
         example-input)
+
+(map + example-input example-input)
+
+(combo/permutations [1 2 3])
