@@ -40,3 +40,11 @@ Of course, your expense report is much larger. Find the two entries that sum to 
   (map #(Long/parseLong %)
        (line-seq (io/reader (io/resources/input "1.txt")))))
 
+
+(filter (fn [x]
+  (reduce + x))
+        example-input)
+
+(filter (fn [x]
+  (= ))
+  ["a" "aa" "b" "n" "f" "lisp" "clojure" "q" ""])
