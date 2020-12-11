@@ -1,4 +1,5 @@
 (ns aoc-2020.1
+  (:gen-class)
   (:require [clojure.java.io :as io]
             [clojure.math.combinatorics :as combo]))
 
