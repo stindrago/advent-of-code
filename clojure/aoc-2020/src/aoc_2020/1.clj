@@ -33,8 +33,8 @@
 
 ;;; Solutions
 (defn solution-1 []
-  (println "Puzzle 1 solution: "
+  (println "Solution part 1:"
            (apply * (get combinations (.indexOf sum-of-combinations-of-2 2020))))
-  (println "Puzzle 2 solution: "
+  (println "Solution part 2:"
            (apply * (get combinations (.indexOf sum-of-combinations-of-3 2020)))))
 
