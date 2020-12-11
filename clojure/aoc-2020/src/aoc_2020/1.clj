@@ -21,6 +21,6 @@
   (vec (map #(apply + %) combinations)))
 
 (defn solution-1 []
-  (println "Puzzle 1 solution: ")
+  (print "Puzzle 1 solution: ")
   (apply * (get combinations (.indexOf sum-of-combinations 2020))))
 ;; => 1019571
