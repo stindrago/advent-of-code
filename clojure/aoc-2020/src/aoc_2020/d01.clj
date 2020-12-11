@@ -38,13 +38,14 @@ Of course, your expense report is much larger. Find the two entries that sum to 
                     1456])
 
 (def input
-  (map #(Long/parseLong %)
-       (line-seq (io/reader (io/resource/input "d1.txt")))))
+  (map #(Integer/parseInt %)
+       (line-seq (io/reader "resources/input/d1.txt"))))
 
 (def combinations
-  (vec (combo/combinations example-input 2)))
+    (vec (combo/combinations input 2)))
 
 (def sum-of-combinations
   (vec (map #(apply + %) combinations)))
 
 (apply * (get combinations (.indexOf sum-of-combinations 2020)))
+;; => 1019571
