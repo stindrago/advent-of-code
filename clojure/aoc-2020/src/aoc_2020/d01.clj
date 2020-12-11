@@ -42,11 +42,5 @@ Of course, your expense report is much larger. Find the two entries that sum to 
 
 
 (filter (fn [x]
-  (= x 299))
+  (= 2))
         example-input)
-
-(filter (fn [x] (= 2020 (reduce + x))) example-input)
-
-(filter (fn [x]
-  (= ))
-  ["a" "aa" "b" "n" "f" "lisp" "clojure" "q" ""])
