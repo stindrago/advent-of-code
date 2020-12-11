@@ -1,4 +1,4 @@
-(ns aoc-2020.01
+(ns aoc-2020.d01
   (:gen-class)
   (:require [clojure.java.io :as io]
             [clojure.math.combinatorics :as combo]))
