@@ -1,7 +1,7 @@
 (ns aoc-2020.1
+  (:gen-class)
   (:require [clojure.java.io :as io]
-            [clojure.math.combinatorics :as combo])
-  (:gen-class))
+            [clojure.math.combinatorics :as combo]))
 
 (def example-input [1721
                     979
