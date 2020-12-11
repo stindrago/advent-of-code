@@ -12,6 +12,7 @@
                     675
                     1456])
 
+;; Read input file
 (def input
   (map #(Integer/parseInt %)
        (line-seq (io/reader "resources/input/d01.txt"))))
