@@ -52,6 +52,16 @@ Of course, your expense report is much larger. Find the two entries that sum to 
 (vec (combo/combinations example-input 2))
 ;; => [(1721 979) (1721 366) (1721 299) (1721 675) (1721 1456) (979 366) (979 299) (979 675) (979 1456) (366 299) (366 675) (366 1456) (299 675) (299 1456) (675 1456)]
 
-(def in2 (map #(apply + %) in))
+(vec (map #(apply + %) in))
+;; => [2700 2087 2020 2396 3177 1345 1278 1654 2435 665 1041 1822 974 1755 2131]
+;; => (2700 2087 2020 2396 3177 1345 1278 1654 2435 665 1041 1822 974 1755 2131)
 
-(filter #(= 2020 %) in2)
+(def in2 (vec (map #(apply + %) in)))
+
+(filter #(= 2020 %)  in2)
+
+(.indexOf in2 2020)
+
+(apply * (get in 2))
+
+(apply * (get in (.indexOf in2 2020)))
