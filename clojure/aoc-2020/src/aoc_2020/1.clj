@@ -1,5 +1,5 @@
 (ns aoc-2020.1
-  (:require [clojure.java.io :as io])))
+  (:require [clojure.java.io :as io]))
 
 "
 --- Day 1: Report Repair ---
