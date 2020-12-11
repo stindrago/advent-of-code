@@ -1,6 +1,4 @@
-(ns aoc-2020.1
-  (:require  :as ]
-  [ :as ]))
+(ns aoc-2020.1)
 
 "
 --- Day 1: Report Repair ---
