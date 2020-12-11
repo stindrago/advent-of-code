@@ -12,7 +12,7 @@
 
 (def input
   (map #(Integer/parseInt %)
-       (line-seq (io/reader "resources/input/d1.txt"))))
+       (line-seq (io/reader "resources/input/d01.txt"))))
 
 (def combinations
   (vec (combo/combinations input 2)))
