@@ -1,4 +1,4 @@
-(ns aoc-2020.d01
+(ns aoc-2020.1
   (:gen-class)
   (:require [clojure.java.io :as io]
             [clojure.math.combinatorics :as combo]))
@@ -20,6 +20,6 @@
 (def sum-of-combinations
   (vec (map #(apply + %) combinations)))
 
-(defn solution-01 []
+(defn solution-1 []
   (apply * (get combinations (.indexOf sum-of-combinations 2020))))
 ;; => 1019571
