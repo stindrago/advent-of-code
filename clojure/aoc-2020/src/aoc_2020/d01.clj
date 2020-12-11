@@ -19,6 +19,6 @@
 (def sum-of-combinations
   (vec (map #(apply + %) combinations)))
 
-(defn solution-11 []
+(defn solution-1 []
   (apply * (get combinations (.indexOf sum-of-combinations 2020))))
 ;; => 1019571
