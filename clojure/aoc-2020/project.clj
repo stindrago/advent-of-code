@@ -4,8 +4,7 @@
   :license {:name "The Unlicense"
             :url "https://unlicense.org"}
   :dependencies [[org.clojure/clojure "1.10.1"]
-                 [clojure.java.io :as io]
-                 [clojure.math.combinatorics :as combo]]
+                 [org.clojure/math.combinatorics "0.1.6"]]
   :main ^:skip-aot aoc-2020.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
