@@ -42,10 +42,16 @@ Of course, your expense report is much larger. Find the two entries that sum to 
        (line-seq (io/reader (io/resources/input "1.txt")))))
 
 
-(filter (fn [x]
-  (= 2020 (reduce + x)))
-        example-input)
 
-(map + example-input example-input)
+(combo/combinations example-input 2)
 
-(combo/permutations example-input)
+(def in (vec (combo/combinations example-input 2)))
+
+(println in)
+
+(vec (combo/combinations example-input 2))
+;; => [(1721 979) (1721 366) (1721 299) (1721 675) (1721 1456) (979 366) (979 299) (979 675) (979 1456) (366 299) (366 675) (366 1456) (299 675) (299 1456) (675 1456)]
+
+(def in2 (map #(apply + %) in))
+
+(filter #(= 2020 %) in2)
