@@ -36,7 +36,6 @@ Of course, your expense report is much larger. Find the two entries that sum to 
                     675
                     1456])
 
-
 (def input
   (map #(Long/parseLong %)
        (line-seq (io/reader (io/resources/input "1.txt")))))
