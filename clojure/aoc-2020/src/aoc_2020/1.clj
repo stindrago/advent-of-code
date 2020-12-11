@@ -34,7 +34,7 @@
 ;;; Solutions
 (defn solution-1 []
   (println "Solution part 1:"
-           (apply * (get combinations (.indexOf sum-of-combinations-of-2 2020))))
+           (apply * (get combinations-of-2 (.indexOf sum-of-combinations-of-2 2020))))
   (println "Solution part 2:"
-           (apply * (get combinations (.indexOf sum-of-combinations-of-3 2020)))))
+           (apply * (get combinations-of-3 (.indexOf sum-of-combinations-of-3 2020)))))
 
