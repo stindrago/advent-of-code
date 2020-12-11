@@ -6,7 +6,7 @@
 (defn run-problem [n]
   (let [day (.format (new java.text.DecimalFormat "0") n)
         solution-function (symbol (str "solution-" day))]
-    (use (vec (list (symbol (str "aoc-2020." day))
+    (use (vec (list (symbol (str "aoc-2020.d" day))
                     :only (list solution-function))))
     (eval (list solution-function))))
 
