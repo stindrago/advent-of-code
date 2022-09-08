@@ -39,3 +39,19 @@
          (dec acc))
        (rest coll)))))
 
+(defn part-2
+  [input]
+  (loop [acc 0
+         pos 0
+         coll (seq input)]
+    (println "Looking for appartament on floor:" acc)
+    (println "Checking if basement hit:" pos)
+    (if (neg? acc)
+      (do (println "Basement hit at:" pos)
+          pos)
+      (recur
+       (if (= floor-up (first coll))
+         (inc acc)
+         (dec acc))
+       (inc pos)
+       (rest coll)))))
