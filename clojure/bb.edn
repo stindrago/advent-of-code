@@ -1,0 +1,20 @@
+{:paths ["src" "resources"]
+ :deps {}
+ :tasks {part-1 {:doc "<year> <day> <input> # Answer part one"
+                 :task (let [year (first *command-line-args*)
+                             day (second *command-line-args*)
+                             input (nth *command-line-args* 2)]
+                         (println "Selected: Year" year "Day" day)
+                         (shell (str "bb -m year-" year ".day-" day "/-main " input " :one")))}
+         part-2 {:doc "<year> <day> <input> # Answer part one"
+                 :task (let [year (first *command-line-args*)
+                             day (second *command-line-args*)
+                             input (nth *command-line-args* 2)]
+                         (println "Selected: Year" year "Day" day)
+                         (shell (str "bb -m year-" year ".day-" day "/-main " input " :two")))}
+         both {:doc "<year> <day> <input> # Answer part one"
+               :task (let [year (first *command-line-args*)
+                           day (second *command-line-args*)
+                           input (nth *command-line-args* 2)]
+                       (println "Selected: Year" year "Day" day)
+                       (shell (str "bb -m year-" year ".day-" day "/-main " input " :both")))}}}
