@@ -1,6 +1,17 @@
 (ns year-2015.day-02
   (:require [clojure.string :as str]))
 
+(comment
+  (def input (slurp "./resources/year-2015/day-02/input.txt"))
+  (def dummy-1 "2x3x4")
+  (def dummy-2 "2x3x4\n1x1x10")
+  (map (fn [x]
+         (map #(Integer. %)
+              (str/split x #"x")))
+       (str/split-lines input))
+  (partition 3
+             (map #(Integer/parseInt %)
+                  (str/split input #"x|\n"))))
 (defn wrapping-paper
   [l w h]
   (let [lw (* l w)
