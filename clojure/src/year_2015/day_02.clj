@@ -12,6 +12,7 @@
   (partition 3
              (map #(Integer/parseInt %)
                   (str/split input #"x|\n"))))
+
 (defn wrapping-paper
   [l w h]
   (let [lw (* l w)
@@ -32,6 +33,7 @@
           0
           (str/split-lines input)))
 
+
 (defn part-2
   [input]
   (reduce (fn [acc curr]
@@ -47,3 +49,15 @@
               (+ acc shortest-perimeter (* l w h))))
           0
           (str/split-lines input)))
+
+(defn -main
+  [& args]
+  (let [input (slurp (first args))]
+    (condp some args
+      #(= ":one" %) (part-1 input)
+      #(= ":two" %) (part-2 input)
+      #(= ":both" %) (let [part-1 (part-1 input)
+                           part-2 (part-2 input)]
+                       (println "Answer:"
+                                "\n  part-1:" part-1
+                                "\n  part-2:" part-2)))))
