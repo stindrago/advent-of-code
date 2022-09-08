@@ -22,3 +22,20 @@
            (inc acc)
            (dec acc))
          (rest coll)))))
+
+;; GOOD - Tail recursion
+(defn part-1
+  [input]
+  (loop [acc 0
+         coll (seq input)]
+    (println "Looking for appartament on floor:" acc)
+    (if (empty? coll)
+      (do
+        (println "The appartament is on floor:" acc)
+        acc)
+      (recur
+       (if (= floor-up (first coll))
+         (inc acc)
+         (dec acc))
+       (rest coll)))))
+
