@@ -1,5 +1,8 @@
 (ns year-2015.day-03)
 
+(comment
+  (def dummy [[-1 0] [0 1] [1 1] [1 1] [1 0]])
+  (def input (slurp "./resources/year-2015/day-03/input.txt")))
 (defn -main
   [& args]
   (let [input (slurp (first args))]
