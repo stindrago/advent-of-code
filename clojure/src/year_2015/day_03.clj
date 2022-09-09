@@ -3,6 +3,47 @@
 (comment
   (def dummy [[-1 0] [0 1] [1 1] [1 1] [1 0]])
   (def input (slurp "./resources/year-2015/day-03/input.txt")))
+
+(def direction {\^ :north
+                \v :south
+                \> :east
+                \< :west})
+
+(defn direction-coordinates
+  "[x y]"
+  [direction]
+  (condp = direction
+    :north [0 1]
+    :south [0 -1]
+    :east [1 0]
+    :west [-1 0]))
+
+(defn input-coordinates
+  [input]
+  (let [v (seq input)]
+    (reduce (fn [acc curr]
+              (conj acc
+                    (direction-coordinates (get direction curr))))
+            []
+            v)))
+
+(defn next-point
+  [previous direction]
+  (mapv + previous direction))
+
+(defn pin-point
+  "Pin the points on the grid. Each point is the house visited. Multpple occurances of the same point are the house visited multiple times."
+  [v]
+  (reduce (fn [pinned-points direction]
+            (conj pinned-points
+                  (next-point (last pinned-points) direction)))
+          [[0 0]]
+          v))
+
+(defn part-1
+  "Count the houses visited."
+  [input]
+  (count (set (pin-point (input-coordinates input)))))
 (defn -main
   [& args]
   (let [input (slurp (first args))]
