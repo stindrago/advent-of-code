@@ -44,6 +44,32 @@
   "Count the houses visited."
   [input]
   (count (set (pin-point (input-coordinates input)))))
+
+;; part-2
+
+(defn separate-path
+  "Partition path in tuples. [:santa :robo-santa]"
+  [input]
+  (partition 2 (seq input)))
+
+(defn get-path-of
+  [who v]
+  (condp = who
+    :santa (reduce (fn [acc curr]
+                     (conj acc (first curr)))
+                   []
+                   v)
+    :robo-santa (reduce (fn [acc curr]
+                          (conj acc (last curr)))
+                        []
+                        v)))
+
+(defn part-2
+  [input]
+  (count (set (concat
+               (pin-point (input-coordinates (get-path-of :santa (separate-path input))))
+               (pin-point (input-coordinates (get-path-of :robo-santa (separate-path input))))))))
+
 (defn -main
   [& args]
   (let [input (slurp (first args))]
