@@ -1,5 +1,5 @@
 {:paths ["src" "resources"]
- :deps {}
+ :deps {org.clj-commons/digest {:mvn/version "1.4.100"}}
  :tasks {part-1 {:doc "<year> <day> <input> # Answer part one"
                  :task (let [year (first *command-line-args*)
                              day (second *command-line-args*)
