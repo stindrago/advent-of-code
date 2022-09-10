@@ -1,6 +1,10 @@
 (ns year-2015.day-04
   (:require [clj-commons.digest :as digest]))
 
+(comment
+  (def dummy "ckczppom")
+  (def input (slurp "./resources/year-2015/day-04/input.txt")))
+
 (defn find-right-hash
   [input zeros]
   (loop [curr 0]
