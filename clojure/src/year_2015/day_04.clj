@@ -14,6 +14,11 @@
 (defn part-1
   [input]
   (find-right-hash input 5))
+
+(defn part-2
+  [input]
+  (find-right-hash input 6))
+
 (defn -main
   [& args]
   (let [input (slurp (first args))]
