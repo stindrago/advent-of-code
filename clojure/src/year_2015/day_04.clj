@@ -10,6 +10,10 @@
                                         (str input curr)))))
       curr
       (recur (inc curr)))))
+
+(defn part-1
+  [input]
+  (find-right-hash input 5))
 (defn -main
   [& args]
   (let [input (slurp (first args))]
