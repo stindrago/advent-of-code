@@ -1,5 +1,6 @@
 {:paths ["src" "resources"]
- :deps {org.clj-commons/digest {:mvn/version "1.4.100"}}
+ :deps {org.clj-commons/digest {:mvn/version "1.4.100"}
+        org.clojure/math.combinatorics {:mvn/version "0.1.6"}}
  :tasks {part-1 {:doc "<year> <day> <input> # Answer part one"
                  :task (let [year (first *command-line-args*)
                              day (second *command-line-args*)
