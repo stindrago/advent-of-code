@@ -25,7 +25,7 @@ My solutions to [[https://adventofcode.com][Advent of Code]] puzzles.
 
 ** Prerequisites
 
-Install dependencies.
+Install requirements.
 
 - openjdk@11
 - clojure
