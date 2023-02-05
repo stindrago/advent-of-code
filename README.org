@@ -11,6 +11,9 @@
 
 My solutions to [[https://adventofcode.com][Advent of Code]] puzzles.
 
+#+name: Advent of Code Preview
+[[./resources/images/preview-1.png]]
+
 * Tools
 
 - [[https://github.com/doomemacs/doomemacs][Doom Emacs]]
