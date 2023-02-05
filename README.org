@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       9d141e33-ba26-4752-8c9f-862087bc619a
+:END:
+#+TITLE: Advent of Code
+#+AUTHOR: Costin Dragoi
+#+DATE: [2023-02-05 Sun]
+#+FILETAGS: project
+#+CATEGORY: private
+
+* About
+
+My solutions to [[https://adventofcode.com][Advent of Code]] puzzles.
+
+* Tools
+
+- [[https://github.com/doomemacs/doomemacs][Doom Emacs]]
+- [[http://openjdk.org][openjdk]]
+- [[https://clojure.org][Clojure]]
+- [[https://babashka.org][Babashka]]
+
+* Development
+
+** Prerequisites
+
+- openjdk@11
+- clojure
+- babashka
+
+** Run
+
+#+begin_src shell
+cd clojure
+bb run both 2022 01 resources/year-2022/day-01/input.txt
+#+end_src
+
+* [[./LICENSE][License]]
+
+[[https://www.gnu.org/licenses/agpl-3.0.en.html][AGPL v3]].
