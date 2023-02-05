@@ -11,7 +11,7 @@
 
 My solutions to [[https://adventofcode.com][Advent of Code]] puzzles.
 
-#+name: Advent of Code Preview
+#+name: Image Preview
 [[./resources/images/preview-1.png]]
 
 * Tools
@@ -32,7 +32,8 @@ My solutions to [[https://adventofcode.com][Advent of Code]] puzzles.
 ** Run
 
 #+begin_src shell
-cd clojure
+git clone https://git.dragoi.me/costin/advent-of-code.git
+cd advent-of-code/clojure
 bb run both 2022 01 resources/year-2022/day-01/input.txt
 #+end_src
 
