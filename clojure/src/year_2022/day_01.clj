@@ -1,6 +1,22 @@
 (ns year-2022.day-01
   (:require [clojure.string :as str]))
 
+(comment
+  "1000
+2000
+3000
+
+4000
+
+5000
+6000
+
+7000
+8000
+9000
+
+10000")
+
 #_(comment
     (def dummy ["1000"
                 "2000"
