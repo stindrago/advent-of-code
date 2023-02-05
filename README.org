@@ -25,15 +25,22 @@ My solutions to [[https://adventofcode.com][Advent of Code]] puzzles.
 
 ** Prerequisites
 
+Install dependencies.
+
 - openjdk@11
 - clojure
 - babashka
 
-** Run
+Download the project.
 
 #+begin_src shell
 git clone https://git.dragoi.me/costin/advent-of-code.git
 cd advent-of-code/clojure
+#+end_src
+
+** Run
+
+#+begin_src shell
 bb run both 2022 01 resources/year-2022/day-01/input.txt
 #+end_src
 
